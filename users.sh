@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 UID_MIN=$(awk '$1 == "UID_MIN" {print $2; exit}' /etc/login.defs)
 UID_MAX=$(awk '$1 == "UID_MAX" {print $2; exit}' /etc/login.defs)
