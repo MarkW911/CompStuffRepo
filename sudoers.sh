@@ -9,5 +9,5 @@ if [ -n "$sudo_users" ]; then
         [ -n "$user" ] && echo "$user"
     done <<< "$sudo_users"
 else
-    echo "No users found in the sudo group."
+    echo "None"
 fi
